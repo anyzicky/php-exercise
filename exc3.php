@@ -1,12 +1,11 @@
 <?php
 
 /**
-	функция склонения существительных
-	numEndings(5,array('котлет','котлеток','котлетки'));
-	numEndings(3,array('яблоко', 'яблока', 'яблок'));
-
-**/
-
+ * [numEndings склоняет существительные]
+ * @param  int $num     [число]
+ * @param  array  $endings [варианты]
+ * @return string          [вариант]
+ */
 function numEndings($num, array $endings) {
 
 	$num = $num % 100;
