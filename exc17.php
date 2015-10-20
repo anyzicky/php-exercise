@@ -1,6 +1,10 @@
 <?php
 
-
+/**
+ * [toCamelCase переводит строку вида test_var в строку testVar]
+ * @param  string $str строка
+ * @return string      новая строка в camelCase
+ */
 function toCamelCase($str) {
 	 
 	$camelcase = "";
